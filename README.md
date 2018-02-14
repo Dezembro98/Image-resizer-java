@@ -3,7 +3,7 @@ A resizing function for images in Java.
 Receives a Buffered Image and returns another Buffered Image handled.
 If the initial aspect ratio of the image differs from the final aspect ratio, the image will be filled with a color and the original image will be centered.
 
-Currently it does not work to resize squares to rectangles
+Currently it does not work to resize squares to rectangles, only rectangle to square, square to square and rectangle to rectangle
 
 Example:
 (Red is the input, black is the added margin)
